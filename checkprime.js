@@ -17,3 +17,4 @@ if(result==true){
 }else{
     console.log("Not prime");
 }
+
