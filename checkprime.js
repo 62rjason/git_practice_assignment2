@@ -5,5 +5,15 @@ function checkprime(num){
             factors++;
         }
     }
+    if(factors==2){
+        return true;
+    }else{
+        return false
+    }  
+}
+let result= checkprime(13);
+if(result==true){
     console.log("Prime");
+}else{
+    console.log("Not prime");
 }
